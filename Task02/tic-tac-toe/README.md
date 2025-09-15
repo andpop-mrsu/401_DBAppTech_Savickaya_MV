@@ -41,12 +41,12 @@
 
 1. **Склонируйте репозиторий**:
    ```bash
-   git clone https://github.com/belokosoff/Minesweeper
+   git clone https://github.com/savickayam/tic-tac-toe
    ```
 
 2. **Перейдите в каталог проекта**:
    ```bash
-   cd \..\minesweeper
+   cd \..\tic-tac-toe
    ```
 
 3. **Установите зависимости через Composer**:
@@ -56,18 +56,18 @@
 
 4. **Запуск игры: Выполните команду для запуска игры**:
    ```bash
-   php bin/minesweeper
+   php bin/tic-tac-toe
    ```
 
    - Или если ваш пакет опубликован на Packagist, установите его глобально:
 
    ```bash
-   composer global require belokosoff/minesweeper
+   composer global require savickayam/tic-tac-toe
    ```
 
    - И затем выполните команду:
    ```bash
-   minesweeper
+   tic-tac-toe
    ```
 
 ## Примечания
@@ -81,4 +81,4 @@
 - [Composer Documentation](https://getcomposer.org/doc/)
 
 ## Ссылки на пакеты
-- [Packagist пакет Minesweeper](https://packagist.org/packages/belokosoff/minesweeper) 
+- [Packagist пакет Minesweeper](https://packagist.org/packages/savickayam/tic-tac-toe) 
