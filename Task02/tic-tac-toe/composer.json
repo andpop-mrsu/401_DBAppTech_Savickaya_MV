@@ -1,0 +1,18 @@
+{
+    "name": "savickayam/tic-tac-toe",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SavickayaM\\TicTacToe\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/tic-tac-toe"
+    ]
+}
