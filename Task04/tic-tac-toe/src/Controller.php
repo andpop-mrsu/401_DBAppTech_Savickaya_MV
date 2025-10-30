@@ -249,8 +249,4 @@ class Controller
 
         View::showGameRepeat($game);
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

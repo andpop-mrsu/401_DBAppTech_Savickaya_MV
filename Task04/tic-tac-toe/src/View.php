@@ -102,8 +102,4 @@ class View
             );
         }
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
