@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< Updated upstream
 declare(strict_types=1);
 
 namespace SavickayaM\TicTacToe\Controller;
@@ -8,6 +9,11 @@ use SavickayaM\TicTacToe\View\View;
 use SavickayaM\TicTacToe\Model\Model;
 
 use function cli\line;
+=======
+namespace SavickayaM\TicTacToe;
+
+use SavickayaM\TicTacToe\View;
+>>>>>>> Stashed changes
 
 class Controller
 {
@@ -250,4 +256,8 @@ class Controller
 
         View::showGameRepeat($game);
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

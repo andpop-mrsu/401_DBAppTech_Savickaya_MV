@@ -1,4 +1,10 @@
+<<<<<<< Updated upstream
 ### Вариант 1
+=======
+# Проект "Крестики-нолики" (tic-tac-toe)
+## Описание проекта
+
+>>>>>>> Stashed changes
 Написать программу для игры в "Крестики-нолики" (tic-tac-toe) с компьютером на поле произвольного размера (от 3x3 до 10x10).
 
 * * *
@@ -18,6 +24,7 @@
     * Вывод списка всех сохраненных партий.
     * Повтор любой сохраненной партии (то есть повтор всех ходов из этой партии).
 
+<<<<<<< Updated upstream
 ## Сохранение 
 
 * При первом запуске автоматически создаются 2 таблицы: `result_games` и `tries`
@@ -44,3 +51,72 @@
 Выполнить команду: composer require savickayam/tic-tac-toe;  
 Перейти в каталог vendor/bin;
 Запустить Консоль и ввести "php start.php"
+=======
+
+---
+
+## Окружение и требования для запуска
+
+1. **PHP**:
+   - Версия: 7.4 или выше.
+   - Настройки в `php.ini`:
+     - Включите SQLite (`extension=sqlite3`).
+     - Убедитесь, что настройки отображения ошибок (`display_errors`) включены в режиме разработки.
+
+2. **SQLite**:
+   - Версия: 3.x.
+   - Проверьте наличие прав записи в каталоге, где находятся файлы баз данных.
+
+3. **Composer**:
+   - Composer должен быть установлен глобально.
+   - Используйте команду `composer` для управления зависимостями.
+   - Для установки Composer следуйте [официальной документации](https://getcomposer.org/doc/00-intro.md).
+
+---
+
+## Установка и запуск проекта
+
+1. **Склонируйте репозиторий**:
+   ```bash
+   git clone https://github.com/SavitskayaM/tic-tac-toe
+   ```
+
+2. **Перейдите в каталог проекта**:
+   ```bash
+   cd \..\tic-tac-toe
+   ```
+
+3. **Установите зависимости через Composer**:
+   ```bash
+   composer install
+   ```
+
+4. **Запуск игры: Выполните команду для запуска игры**:
+   ```bash
+   php bin/tic-tac-toe
+   ```
+
+   - Или если ваш пакет опубликован на Packagist, установите его глобально:
+
+   ```bash
+   composer global require savickayam/tic-tac-toe
+   ```
+
+   - И затем выполните команду:
+   ```bash
+   tic-tac-toe
+   ```
+
+## Примечания
+
+- Проверьте права на запись в каталог с базой данных SQLite.
+
+- Дополнительную информацию можно найти в документации PHP, SQLite и Composer:
+
+- [SQLite Documentation](https://www.sqlite.org/docs.html)
+- [PHP Documentation](https://www.php.net/docs.php)
+- [Composer Documentation](https://getcomposer.org/doc/)
+
+## Ссылки на пакеты
+- [Packagist пакет Minesweeper](https://packagist.org/packages/SavitskayaM/tic-tac-toe)
+>>>>>>> Stashed changes

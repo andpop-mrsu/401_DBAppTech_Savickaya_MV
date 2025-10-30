@@ -1,8 +1,12 @@
 <?php
 
+<<<<<<< Updated upstream
 declare(strict_types=1);
 
 namespace SavickayaM\TicTacToe\View;
+=======
+namespace SavickayaM\TicTacToe;
+>>>>>>> Stashed changes
 
 use function cli\line;
 
@@ -102,4 +106,8 @@ class View
             );
         }
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

@@ -1,8 +1,12 @@
 <?php
 
+<<<<<<< Updated upstream
 declare(strict_types=1);
 
 namespace SavickayaM\TicTacToe\Model;
+=======
+namespace SavickayaM\TicTacToe;
+>>>>>>> Stashed changes
 
 use SQLite3;
 
@@ -106,4 +110,8 @@ class Model
 
         return $tries;
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
