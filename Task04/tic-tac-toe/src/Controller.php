@@ -1,19 +1,12 @@
 <?php
 
-<<<<<<< Updated upstream
-declare(strict_types=1);
 
-namespace SavickayaM\TicTacToe\Controller;
-
-use SavickayaM\TicTacToe\View\View;
-use SavickayaM\TicTacToe\Model\Model;
-
-use function cli\line;
-=======
 namespace SavickayaM\TicTacToe;
 
 use SavickayaM\TicTacToe\View;
->>>>>>> Stashed changes
+use SavickayaM\TicTacToe\Model;
+
+use function cli\line;
 
 class Controller
 {
