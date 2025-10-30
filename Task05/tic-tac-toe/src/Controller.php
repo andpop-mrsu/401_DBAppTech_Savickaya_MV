@@ -1,6 +1,5 @@
 <?php
 
-
 namespace SavickayaM\TicTacToe;
 
 use SavickayaM\TicTacToe\View;
@@ -68,7 +67,7 @@ class Controller
         return $inputArray;
     }
 
-    private function isСrosses(): bool
+    private function isCrosses(): bool
     {
         $isCrosses = rand(0, 1);
 
