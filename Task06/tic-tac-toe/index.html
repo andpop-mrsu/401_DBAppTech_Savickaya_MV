@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-нолики</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Крестики-нолики</h1>
+        
+        <div id="menu" class="screen active">
+            <button id="newGameBtn" class="menu-btn">Новая игра</button>
+            <button id="historyBtn" class="menu-btn">История игр</button>
+            <button id="replayBtn" class="menu-btn">Повтор партии</button>
+        </div>
+
+        <div id="newGameScreen" class="screen">
+            <h2>Новая игра</h2>
+            <div class="form-group">
+                <label for="playerName">Имя игрока:</label>
+                <input type="text" id="playerName" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+                <label for="boardSize">Размер поля:</label>
+                <select id="boardSize">
+                    <option value="3">3x3</option>
+                    <option value="4">4x4</option>
+                    <option value="5">5x5</option>
+                    <option value="6">6x6</option>
+                    <option value="7">7x7</option>
+                    <option value="8">8x8</option>
+                    <option value="9">9x9</option>
+                    <option value="10">10x10</option>
+                </select>
+            </div>
+            <button id="startGameBtn">Начать игру</button>
+            <button class="back-btn">Назад</button>
+        </div>
+
+        <div id="gameScreen" class="screen">
+            <div id="gameInfo">
+                <p>Игрок: <span id="playerNameDisplay"></span></p>
+                <p>Вы играете: <span id="playerSymbol"></span></p>
+                <p>Ход: <span id="currentTurn"></span></p>
+            </div>
+            <div id="gameBoard"></div>
+            <div id="gameMessage"></div>
+            <button id="backToMenu" class="back-btn">В меню</button>
+        </div>
+
+        <div id="historyScreen" class="screen">
+            <h2>История игр</h2>
+            <div id="historyList"></div>
+            <button class="back-btn">Назад</button>
+        </div>
+
+        <div id="replayScreen" class="screen">
+            <h2>Повтор партии</h2>
+            <div id="replayList"></div>
+            <button class="back-btn">Назад</button>
+        </div>
+
+        <div id="replayViewScreen" class="screen">
+            <h2>Просмотр партии</h2>
+            <div id="replayInfo"></div>
+            <div id="replayBoard"></div>
+            <div class="replay-controls">
+                <button id="prevMove">← Назад</button>
+                <span id="moveCounter">Ход: 0</span>
+                <button id="nextMove">Вперед →</button>
+            </div>
+            <button class="back-btn">Назад</button>
+        </div>
+    </div>
+
+    <script src="js/database.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
